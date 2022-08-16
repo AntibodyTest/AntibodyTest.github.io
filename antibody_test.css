@@ -1,0 +1,18 @@
+
+.bg
+{
+    width: 100%;
+    z-index: 0;
+}
+
+
+.blink_me {
+        height: 200px;
+        animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
